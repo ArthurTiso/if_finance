@@ -4,18 +4,22 @@ html, body{
     font-family: 'Fantasy', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body{
-    background-color: #353a34;
-}
 
 header  {
     height: 90px;
     background-color: #000
 }
 
+
+body {
+  background-color: #353a34;
+  
+   }    
+
 .wrapper{
     width: 1000px;
     margin: 0 auto;
+   
 }
 
 header .wrapper{
@@ -69,7 +73,7 @@ header .wrapper{
 #logo h1 span{
     color:#8c1af6;
 }
-.
+
 
 nav ul{
     display: flex;
@@ -105,4 +109,14 @@ header nav ul li a:hover{
 
 main{
     color: #FFF;
+}
+
+#manifesto {
+background-color: red;
+    text-align: justify;
+    text-justify: inter-word;
+   background-image: url('https://imgur.com/Oeqmfel.jpeg');
+   background-repeat: no-repeat;
+  color: #ffffff;
+   font-style: italic;
 }
