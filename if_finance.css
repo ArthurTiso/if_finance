@@ -122,10 +122,11 @@ background-color: red;
 }
 
 
+
 table {
     
     border-collapse: collapse;
-    margin: 10px 10px
+    margin: 5% 5%;
 }
 
 th, td {
@@ -186,8 +187,8 @@ select{
     width: fit-content;
 }
 
-input[type=submit]{
-    width: 50%;
+input[type=submit], button{
+ 
     background-color: #8c1af6;
     border-radius: 20px;
     padding: 10px 20px;
@@ -196,6 +197,61 @@ input[type=submit]{
     cursor: pointer;
 }
 
-input[type=submit]:hover{
-    background-color: #870df9;
+input[type=submit]:hover, button:hover{
+    background-color: #7c16db;
+}
+
+#desafio{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-color:  rgb(172, 40, 40);
+}
+
+.CentralizandoHome{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.modal{
+    background: #0a0a0a9a;
+    position: absolute; /*Fica "acima" do restante*/
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal main{
+    width: 800px;
+    height: 600px;
+    background: #303030a1;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.modal main header{
+    background: none;
+    height: auto;
+}
+
+.modal main h1{
+    margin: 0 0 20px 0;
+}
+
+.modal main header button{
+    background: none;
+    color: #FFF;
+
+}
+
+.modal main header button:hover{
+    background: #0000008a;
 }

@@ -10,6 +10,50 @@ href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         </style>
+
+
+<script>
+    const nome = "Arthur"
+    const sobreNome = "Morais"
+    const nomecompleto = nome + " " + sobreNome
+
+    const campoEscolhido = 'altura'
+
+    function nomeCompleto (nome, sobreNome){
+       
+       
+       
+        return`${nome} ${sobreNome}` 
+
+    }
+
+    const nmcompleto = (nome, sobreNome) => {}
+
+
+
+
+    const user = {
+        nome: "Paulinho",
+        sobreNome: "da Silva",
+        email: "paulo@gmail.com",
+        altura: 1.79,
+        id: 19,
+        'Nome Completo': 'Paulo da Silva',
+        idAdmins: [4, 20, 30, 33],
+        endereco: {
+            rua: "Rua dos Bobos",
+            numero: 0
+        },
+        sobrenome: () => {
+            return nome
+        }
+    }
+    const idAdmins = [1, 5, 10, 80, {rua: 'Dos Bodos', numero: 0}]
+
+    console.log(`Olá ${nomeCompleto(user.nome, user.sobreNome)}, seja bem-vindo! ${idAdmins[4].numero}`)
+</script>
+
+
         <Title> IF Finances </Title>
  </head>
     <body>  
@@ -37,6 +81,7 @@ href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
                     <li><a href="./destaques.html">Destaques</li>
                     <li><a href="./contatos.html">Contatos</a></li>
                     <li><a href="./Manifesto Comunista.html">Manifesto</a></li>
+                    <li><a href="./Lego.html">Lego</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,22 +89,25 @@ href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
 <main>
 
 <div class="wrapper">
+   <div class="CentralizandoHome">
+    <h1>Home</h1>   
+    <button style="height: 50px; border-radius: 10px;" onclick="openModal()" >+ Adicionar</button>
+  </div>
+</div>
+</main>
+ <div class="modal" onclick="closeModal()">
 
-    <h1>Home</h1>
-    
+    <main>
+        <header class="CentralizandoHome">
+            <h1>Adicionar Action</h1>
+            <button onclick= "closeModal()">Twitter</button>
+        </header>
+
+        <form></form>        
+    </main>
+
 </div>
 
-</main>
-
-
-
-
-
-
-
-
-
-
     </body>
-
+<script src="./Js/index.js"></script>
 </html>

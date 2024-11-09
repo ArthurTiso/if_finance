@@ -4,14 +4,12 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <link rel="stylesheet" href="/if_finance.css">
+    <link rel="stylesheet" href="if_finance.css">
     <link rel="stylesheet"
 href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         </style>
-
-
         <Title> IF Finances </Title>
  </head>
     <body>  
@@ -33,42 +31,26 @@ href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
                 </div>
             <nav>
                 <ul>
-                    <li><a class="active" href="index.html">Home</li>
-                        <li><a href="./quem_somos.html">Quem somos</a></li>
+                    <li><a href="index.html">Home</li>
+                    <li><a href="./quem_somos.html">Quem somos</a></li>
                     <li><a href="./bolsas.html">Bolsas</a></li>
                     <li><a href="./destaques.html">Destaques</li>
                     <li><a href="./contatos.html">Contatos</a></li>
                     <li><a href="./Manifesto Comunista.html">Manifesto</a></li>
+                    <li><a class="active" href="./Lego.html">Lego</a></li>
+                    
                 </ul>
             </nav>
         </div>
     </header> 
 <main>
+
 <div class="wrapper">
-    <h1> HOME</h1>
 
-    <p> Digite a cor: </p>
-    <input type="text" id="txtInput">
-
-    <button onclick="aplicarCor()"> Aplicar cor</button>
-
-    <div id="resultado" style ="width: 200px; height: 200px; background: aliceblue;"></div>
+<h1> Lego: </h1>
 
 
 </div>
 </main>
-
-    </body>
-
-    <script>
-
-        const aplicarCor = () => {
-            const txtInput = document.getElementById('txtInput')
-            const result = document.getElementById('resultado')
-            const cor = txtInput.value
-
-            result.style.background = cor
-
-            }
-    </script>
+</body>
 </html>
